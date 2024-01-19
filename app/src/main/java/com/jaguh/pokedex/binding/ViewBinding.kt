@@ -16,9 +16,9 @@ import com.github.florent37.glidepalette.GlidePalette
 import com.google.android.material.card.MaterialCardView
 import com.skydoves.androidribbon.RibbonRecyclerView
 import com.skydoves.androidribbon.ribbonView
-import com.skydoves.pokedex.core.model.PokemonInfo
-import com.skydoves.pokedex.utils.PokemonTypeUtils
-import com.skydoves.pokedex.utils.SpacesItemDecoration
+import com.jaguh.pokedex.core.model.PokemonInfo
+import com.jaguh.pokedex.utils.PokemonTypeUtils
+import com.jaguh.pokedex.utils.SpacesItemDecoration
 import com.skydoves.progressview.ProgressView
 import com.skydoves.rainbow.Rainbow
 import com.skydoves.rainbow.RainbowOrientation
