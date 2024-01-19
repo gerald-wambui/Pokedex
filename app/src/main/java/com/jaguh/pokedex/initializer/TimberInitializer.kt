@@ -2,7 +2,7 @@ package com.jaguh.pokedex.initializer
 
 import android.content.Context
 import androidx.startup.Initializer
-import com.facebook.shimmer.BuildConfig
+import com.jaguh.pokedex.BuildConfig
 import timber.log.Timber
 
 class TimberInitializer : Initializer<Unit> {
