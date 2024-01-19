@@ -93,6 +93,6 @@ dependencies {
 	testImplementation("com.google.dagger:hilt-android-testing:2.50")
 	kaptTest("com.google.dagger:hilt-compiler:2.50")
 
-	androidTestImplementation("com.google.truth:truth::1.1.3")
+	testImplementation("com.google.truth:truth::1.1.3")
 
 }
