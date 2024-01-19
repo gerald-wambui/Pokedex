@@ -4,6 +4,8 @@ import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.jaguh.pokedex.ui.main.MainViewModel
 import com.skydoves.bindables.BindingListAdapter
+import com.skydoves.baserecyclerviewadapter.RecyclerViewPaginator
+import com.skydoves.whatif.whatIfNotNullAs
 
 object RecyclerViewBinding {
 	@JvmStatic
