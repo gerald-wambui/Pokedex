@@ -77,4 +77,10 @@ dependencies {
 	kapt("androidx.databinding:databinding-compiler:8.2.1")
 	implementation("com.github.skydoves:bindables:1.1.0")
 	implementation("com.github.skydoves:bundler:1.0.4")
+	implementation("com.github.skydoves:whatif:1.1.4")
+	implementation("com.github.skydoves:baserecyclerviewadapter:1.0.4")
+
+	implementation("com.github.bumptech.glide:glide:4.16.0")
+	implementation("com.github.bumptech.glide:glide:4.6.1")
+	implementation("com.github.skydoves:rainbow:1.0.4")
 }
