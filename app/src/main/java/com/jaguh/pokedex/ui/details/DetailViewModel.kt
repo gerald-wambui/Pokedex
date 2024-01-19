@@ -5,6 +5,11 @@ import androidx.lifecycle.ViewModelProvider
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import kotlinx.coroutines.flow.Flow
+import androidx.databinding.Bindable
+import com.skydoves.bindables.BindingViewModel
+import com.skydoves.bindables.asBindingProperty
+import com.skydoves.bindables.bindingProperty
+import androidx.lifecycle.viewModelScope
 
 class DetailViewModel @AssistedInject constructor(
 	detailRepository: DetailRepository,

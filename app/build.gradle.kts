@@ -65,7 +65,9 @@ dependencies {
 	 // Check for latest version
 
 	// ViewModel and viewModelScope
-	implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:8.2.1")
+	//implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:8.2.1")
+	implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+
 
 	// LiveData
 	implementation("androidx.lifecycle:lifecycle-livedata-ktx:8.2.1")
@@ -73,4 +75,6 @@ dependencies {
 	// Data binding
 	implementation("androidx.databinding:databinding-runtime:8.2.1")
 	kapt("androidx.databinding:databinding-compiler:8.2.1")
+	implementation("com.github.skydoves:bindables:1.1.0")
+	implementation("com.github.skydoves:bundler:1.0.4")
 }

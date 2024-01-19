@@ -7,6 +7,10 @@ import com.jaguh.pokedex.R
 import com.skydoves.transformationlayout.TransformationCompat
 import com.skydoves.transformationlayout.TransformationCompat.onTransformationEndContainerApplyParams
 import com.skydoves.transformationlayout.TransformationLayout
+import com.skydoves.bindables.BindingActivity
+import com.skydoves.bundler.bundleNonNull
+import com.skydoves.bundler.intentOf
+import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
