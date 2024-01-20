@@ -1,5 +1,9 @@
 package com.jaguh.pokedex.core.model
 
+import kotlin.random.Random
+import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
+
 @JsonClass(generateAdapter = true)
 data class PokemonInfo(
 	@field:Json(name = "id")
