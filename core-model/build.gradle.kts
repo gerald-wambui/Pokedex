@@ -66,4 +66,6 @@ dependencies {
 	androidTestImplementation("androidx.compose.ui:ui-test-junit4")
 	debugImplementation("androidx.compose.ui:ui-tooling")
 	debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+	implementation("com.squareup.moshi:moshi-kotlin:1.14.0")
 }
