@@ -2,6 +2,8 @@ package com.jaguh.pokedex.core.model
 
 import android.os.Parcelable
 import com.squareup.moshi.JsonClass
+import com.squareup.moshi.Json
+import kotlinx.parcelize.Parcelize
 
 
 @Parcelize
