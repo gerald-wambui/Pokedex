@@ -6,6 +6,6 @@ class DetailViewModelTest {
 	private lateinit var viewModel: DetailViewModel
 	private lateinit var detailRepository: DetailRepository
 	private val pokedexService: PokedexService = mock()
-	private val pokedexClient: PokedexClient = PokedexClient
+	private val pokedexClient: PokedexClient = PokedexClient(pokedexService)
 	private val pokemonInfoDao: PokemonInfoDao = mock()
 }
